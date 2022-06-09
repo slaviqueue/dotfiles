@@ -1,9 +1,9 @@
-# nav aliases
+# navigation
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# git aliases
+# git
 alias gs="git status"
 alias gd="git diff"
 alias gl="git log"
@@ -12,3 +12,14 @@ alias gcm="git commit"
 alias gps="git push"
 alias gpl="git pull"
 alias gf="git fetch"
+gbrch() {
+  gbr "$1"
+  gch "$1"
+}
+
+# docker
+alias gcn="docker ps | grep"
+alias dlf="docker logs --follow"
+dex() {
+  docker exec -it "$1" sh
+}
