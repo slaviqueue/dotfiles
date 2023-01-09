@@ -53,4 +53,7 @@ return require('packer').startup(function(use)
   use {
     "ray-x/lsp_signature.nvim"
   }
+
+  use 'nvim-tree/nvim-web-devicons'
+  use { 'romgrk/barbar.nvim', wants = 'nvim-web-devicons' }
 end)
