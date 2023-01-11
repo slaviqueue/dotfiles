@@ -11,6 +11,7 @@ alias ga="git add"
 alias gcm="git commit"
 alias gps="git push"
 alias gpl="git pull"
+alias gch="git checkout"
 alias gf="git fetch"
 gbrch() {
   gbr "$1"
