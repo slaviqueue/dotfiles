@@ -176,7 +176,8 @@ lvim.plugins = {
         require"lsp_signature".setup({})
       end,
     },
-    { 'axvr/raider.vim' }
+    { 'axvr/raider.vim' },
+    { 'owickstrom/vim-colors-paramount' }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
