@@ -1,0 +1,10 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/.config/lvim: .config/lvim
+    ~/.bashrc: .bashrc
+    ~/.gitconfig: .gitconfig
+    ~/.zshrc: .zshrc
+    ~/.zsh_alias: .zsh_alias

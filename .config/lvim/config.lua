@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
-lvim.colorscheme = "habamax"
+lvim.colorscheme = "lunar"
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -120,15 +120,13 @@ lvim.builtin.treesitter.highlight.enable = true
 
 -- -- you can set a custom on_attach function that will be used for all the language servers
 -- -- See <https://github.com/neovim/nvim-lspconfig#keybindings-and-completion>
-lvim.lsp.on_attach_callback = function(client, bufnr)
-  -- local function buf_set_option(...)
-  --   vim.api.nvim_buf_set_option(bufnr, ...)
-  -- end
-  -- --Enable completion triggered by <c-x><c-o>
-  -- buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
-
-  require"lsp_signature".on_attach()
-end
+-- lvim.lsp.on_attach_callback = function(client, bufnr)
+--   local function buf_set_option(...)
+--     vim.api.nvim_buf_set_option(bufnr, ...)
+--   end
+--   --Enable completion triggered by <c-x><c-o>
+--   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
+-- end
 
 -- -- set a formatter, this will override the language server formatting capabilities (if it exists)
 -- local formatters = require "lvim.lsp.null-ls.formatters"
@@ -166,18 +164,18 @@ end
 
 -- Additional Plugins
 lvim.plugins = {
-    {
-      "folke/trouble.nvim",
-      cmd = "TroubleToggle",
-    },
-    {
-      "ray-x/lsp_signature.nvim",
-      config = function()
-        require"lsp_signature".setup({})
-      end,
-    },
-    { 'axvr/raider.vim' },
-    { 'owickstrom/vim-colors-paramount' }
+  {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle",
+  },
+  {
+    "ray-x/lsp_signature.nvim",
+    config = function()
+      require "lsp_signature".setup({})
+    end,
+  },
+  { 'axvr/raider.vim' },
+  { 'owickstrom/vim-colors-paramount' }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
