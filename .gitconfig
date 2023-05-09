@@ -1,3 +1,6 @@
 [user]
 	email = electricsemyon@gmail.com
 	name = slaviqueue
+
+[core]
+  excludesfile = ~/.gitignore
