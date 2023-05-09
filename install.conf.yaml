@@ -6,5 +6,6 @@
     ~/.config/lvim: .config/lvim
     ~/.bashrc: .bashrc
     ~/.gitconfig: .gitconfig
+    ~/.gitignore: .gitignore
     ~/.zshrc: .zshrc
     ~/.zsh_alias: .zsh_alias

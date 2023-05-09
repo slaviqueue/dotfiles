@@ -175,7 +175,8 @@ lvim.plugins = {
     end,
   },
   { 'axvr/raider.vim' },
-  { 'owickstrom/vim-colors-paramount' }
+  { 'owickstrom/vim-colors-paramount' },
+  { 'github/copilot.vim' }
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
