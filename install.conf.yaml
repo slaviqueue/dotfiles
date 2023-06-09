@@ -4,6 +4,7 @@
 
 - link:
     ~/.config/lvim: .config/lvim
+    ~/.config/tmux: .config/tmux
     ~/.bashrc: .bashrc
     ~/.gitconfig: .gitconfig
     ~/.gitignore: .gitignore

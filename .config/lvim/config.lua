@@ -32,5 +32,6 @@ lvim.plugins = {
         require("copilot_cmp").setup() -- https://github.com/zbirenbaum/copilot-cmp/blob/master/README.md#configuration
       end, 100)
     end,
-  }
+  },
+  { "christoomey/vim-tmux-navigator" }
 }
