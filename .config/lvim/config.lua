@@ -1,6 +1,8 @@
 lvim.leader = "space"
 lvim.builtin.treesitter.highlight.enable = true
 
+vim.wo.relativenumber = true
+
 lvim.plugins = {
   {
     "folke/trouble.nvim",
