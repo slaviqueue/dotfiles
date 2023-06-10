@@ -37,3 +37,5 @@ lvim.plugins = {
   },
   { "christoomey/vim-tmux-navigator" }
 }
+
+vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
