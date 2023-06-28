@@ -24,7 +24,3 @@ alias dlf="docker logs --follow"
 dex() {
   docker exec -it "$1" sh
 }
-
-# other
-alias py="python3.10"
-alias python3="python3.10"
