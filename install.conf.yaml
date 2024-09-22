@@ -5,6 +5,7 @@
 - link:
     ~/.config/lvim: .config/lvim
     ~/.config/tmux: .config/tmux
+    ~/.config/gdb-dashboard: .config/gdb-dashboard
     ~/.bashrc: .bashrc
     ~/.gitconfig: .gitconfig
     ~/.gitignore: .gitignore
@@ -14,3 +15,4 @@
 - shell:
   - [git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm, Installing tpm]
   - [curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash, Installing nvm]
+  - [wget -P ~ https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit, Installing gdb-dashboard]
